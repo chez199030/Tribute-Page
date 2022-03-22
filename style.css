@@ -12,7 +12,7 @@ body {
 }
 
 #main {
-  width: 100vw;
+  max-width: 100vw;
   height: auto;
   margin-top: 2.5rem;
   display: flex;
@@ -37,7 +37,7 @@ header > p {
 }
 
 #img-div {
-  width: 100vw;
+  width: 97vw;
   height: auto;
   background-color: #fff;
 }
@@ -67,4 +67,66 @@ article > h3 {
 ul > li {
   line-height: 1.5rem;
   margin-bottom: 1rem;
+}
+
+.p1 {
+  margin-top: 2.7rem;
+  font-style: italic;
+}
+
+.p2 {
+  margin-top: 1rem;
+  font-style: italic;
+}
+
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  #image {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #img-caption {
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-bottom: 15px;
+  }
+
+  ul > li {
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+  }
+
+  .p1 {
+    margin-top: 2.7rem;
+    font-style: italic;
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+  }
+
+  .p2 {
+    margin-top: 1rem;
+    font-style: italic;
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 16px;
+    font-weight: bold;
+  }
 }
